@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "stentiga";
+  src: url("../public/stentiga.otf");
+  font-style: bold;
+  font-weight: bold;
+}
+
+.navegacion {
+  background-color: #d8f6d7; /* Color de fondo */
+  background-image: url("../public/background.png");
+  background-repeat:repeat-x;
+  background-size: cover;
+  color: #505050;
+  padding: 0.75% 1% 0.5% 1%; /* Relleno, 10 arriba y abajo, 5 izquierda y derecha */
+  display: flex; /* Mostrar como Flexbox */
+  flex-wrap: wrap; /* Ajustar a la pantalla */
+  align-items: center;
+  justify-content: flex-start; /* Centrar los elementos */
+  gap: 2vw; /* Espacio entre elementos */
+  border-bottom: 1px solid #e1e1e1;
+  object-fit: contain;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.titulo{
+  font-family: "stentiga";
+  color: #0a2d20; /*troleito*/
+  font-size: 2vi;
+}
+
+.leyenda li{
+  color: #1f321e;
+  font-size: 1.6vi;
+  margin-left: 5%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.leyenda p{
+  display: flex;
+  font-size: 0.9vi;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.homeMap{
+  object-fit: contain;
+  display:flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 80vh;
+  z-index: 0;
+}
+
+
+.Menu{
+  z-index: 99;
+  margin-left: 2.5%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:rgb(225, 243, 231);
+  color: black;
+}
+
+.MenuButton{
+  z-index: 99;
+  margin-left: 2.5%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#93DFA3;
+  color: black;
+}
+
+.checkboxLager{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(247, 222, 123);
+}
+
+.checkboxSinFiltrar {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: rgb(226, 132, 149);
+}
+
+.checkboxBock {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: rgb(129, 149, 228);
+}
+
+.checkboxPaleAle {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: rgb(233, 171, 135);
+}
+
+.checkboxTrigo {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: rgb(159, 226, 163);
+}
+
+.accent {
+  color: black;
+}
+
+.comments{
+  color: black;
+  font-size: large;
+}
+
+.CrearComentarios{
+  z-index: 99;
+  margin-left: 2.5%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#93DFA3;
+  color: black;
+}
+
+.CrearComentariosInput{
+  background-color: white;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.Drawer{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
